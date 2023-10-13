@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MangoChat - Real Time Node Socket.io Chat App</title>
+    <script defer src="http://localhost:8000/socket.io/socket.io.js"></script>
+    <link rel="stylesheet" href="./css/style.css">
+    <script defer src="./js/client.js"></script>
+</head>
+<body>
+        <nav>
+            <li class="baseline">
+                <img class="logo" src="./files/mangoChat.png" alt="">
+                <div class="head"><h1>MangoChat</h1></div>
+            </li>
+            <li class="rightAlign">
+                <img class="logo calling" src="./files/videocall.png"  alt="">    
+                <img class="logo calling" src="./files/normalcall.png"  alt="">
+            </li>
+
+        </nav>
+
+        <div class="container">
+            
+
+            <div class="send">
+                <form action="#" id="send-container">
+                    <input type="text"  id="messageInp" placeholder="Enter your message: ">
+                    <button class="btn" type="submit">></button>
+                </form>
+            </div>
+        </div>
+
+
+        <!-- <div class="send">
+            <form action="#" id="send-container">
+                <input type="text"  id="messageInp">
+                <button class="btn" type="submit">Send</button>
+            </form>
+        </div> -->
+</body>
+</html>

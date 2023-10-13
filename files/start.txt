@@ -1,0 +1,8 @@
+In this project I made a real time chat app by using WebSockets
+So, before going there let's see what are websockets basically
+websockets:
+    Websockets are one end to another end two way connections. Both client and server share any changes between them
+
+I am using socket io javascript library for the real time chat app 
+This is biderectional 
+When server emets the client will listen similarly when client emets server will listen
